@@ -5,7 +5,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="ga" />
   <project path="frameworks/av" name="frameworks_av" remote="ga" />
   <project path="system/core" name="system_core" remote="ga" />
-  <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="ga" />
-  <project path="vendor/cm" name="android_vendor_resurrection" remote="ga" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ga" />
+  <project path="vendor/cm" name="android_vendor" remote="ga" />
 
 </manifest>
