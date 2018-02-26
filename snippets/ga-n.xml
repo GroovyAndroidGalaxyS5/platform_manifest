@@ -7,6 +7,6 @@
   <project path="system/core" name="system_core" remote="ga" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ga" />
   <project path="vendor/cm" name="android_vendor" remote="ga" />
-  <project path="packages/apps/ResurrectionOTA" name="packages_apps_OTA" remote="rr" />
+  <project path="packages/apps/ResurrectionOTA" name="packages_apps_OTA" remote="ga" />
 
 </manifest>
