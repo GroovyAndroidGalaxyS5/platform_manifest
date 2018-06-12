@@ -4,7 +4,7 @@
   <project path="android" name="platform_manifest" remote="ga" revision="oreo" />
   <project path="system/core" name="system_core" remote="ga" revision="oreo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ga" revision="oreo" />
-  <project path="vendor/cm" name="android_vendor" remote="ga" revision="oreo" />
+  <project path="vendor/rr" name="android_vendor" remote="ga" revision="oreo" />
   <project path="packages/apps/ResurrectionOTA" name="packages_apps_OTA" remote="ga" revision="oreo" />
 
 </manifest>
