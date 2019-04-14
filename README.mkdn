@@ -1,1 +1,38 @@
-Groovy Android OS Nougat Source 2018
+Groovy Android Nougat Source 2018
+===========
+
+Rom Downloads
+===================
+
+[Download Groovy Android](https://sourceforge.net/projects/groovy-android/files/)
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the Groovy Android trees, use a command like this:
+
+    repo init -u https://github.com/GroovyAndroid/platform_manifest.git -b nougat
+
+Then to sync up:
+
+    repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+
+Building the source
+---------------
+
+The source at Groovy Android is well configured for building.
+
+    $ . build/envsetup.sh && brunch <device>
+
+##### Obtaining the zip created from the build process
+To get the zip file that has been built, navigate to the following directory and find for the zip file:
+
+      $ cd ~/GA/out/target/product/<devicename>/
+
+If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following to make sure your next build is clean;
+
+      $ cd ~/GA
+      $ make clean
